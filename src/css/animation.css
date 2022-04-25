@@ -1,0 +1,21 @@
+@keyframes opacity{
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
+@keyframes moveTop{
+  0%{
+    position: relative;
+    top: 50px;
+    opacity: 0;
+  }
+  100%{
+    position: relative;
+    top: -10px;
+    opacity: 1;
+  }
+}
